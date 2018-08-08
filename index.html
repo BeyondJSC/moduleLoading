@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <script>
+        // 启动方法
+        requirejs(["a", "b"], function(a, b){
+            a.add(4, 5);
+            b.delete(5, 3);
+        })       
+    </script>
+</body>
+</html>
